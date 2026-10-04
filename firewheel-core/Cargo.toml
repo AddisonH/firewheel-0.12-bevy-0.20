@@ -47,12 +47,14 @@ glam-29 = ["dep:glam-29"]
 glam-30 = ["dep:glam-30"]
 glam-31 = ["dep:glam-31"]
 glam-32 = ["dep:glam-32"]
+glam-33 = ["dep:glam-33"]
 libm = [
     "num-traits/libm",
     "glam-29?/nostd-libm",
     "glam-30?/nostd-libm",
     "glam-31?/nostd-libm",
     "glam-32?/nostd-libm",
+    "glam-33?/nostd-libm",
 ]
 midi_events = ["dep:wmidi"]
 musical_transport = ["scheduled_events"]
@@ -67,6 +69,7 @@ std = [
     "glam-30?/std",
     "glam-31?/std",
     "glam-32?/std",
+    "glam-33?/std",
     "portable-atomic/std",
     "num-traits/std",
     "thiserror/std",
@@ -98,17 +101,17 @@ version = "4.0.0"
 default-features = false
 
 [dependencies.bevy_ecs]
-version = "0.19.0"
+version = "0.20.0-rc.2"
 optional = true
 default-features = false
 
 [dependencies.bevy_platform]
-version = "0.19.0"
+version = "0.20.0-rc.2"
 features = ["alloc"]
 default-features = false
 
 [dependencies.bevy_reflect]
-version = "0.19.0"
+version = "0.20.0-rc.2"
 optional = true
 default-features = false
 
@@ -138,6 +141,12 @@ package = "glam"
 
 [dependencies.glam-32]
 version = "0.32"
+optional = true
+default-features = false
+package = "glam"
+
+[dependencies.glam-33]
+version = "0.33"
 optional = true
 default-features = false
 package = "glam"

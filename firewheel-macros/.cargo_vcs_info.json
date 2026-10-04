@@ -1,6 +1,0 @@
-{
-  "git": {
-    "sha1": "09f673235d0e1c804c50c20ea833d19d2bd3f5b9"
-  },
-  "path_in_vcs": "crates/firewheel-macros"
-}

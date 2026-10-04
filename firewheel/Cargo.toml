@@ -72,6 +72,7 @@ glam-29 = ["firewheel-core/glam-29"]
 glam-30 = ["firewheel-core/glam-30"]
 glam-31 = ["firewheel-core/glam-31"]
 glam-32 = ["firewheel-core/glam-32"]
+glam-33 = ["firewheel-core/glam-33"]
 libm = [
     "firewheel-core/libm",
     "firewheel-nodes/libm",
